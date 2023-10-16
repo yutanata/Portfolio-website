@@ -1,0 +1,294 @@
+/* Apply styles to the container */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Style the jumbotron */
+.jumbotron {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px; /* Limit the maximum width of the jumbotron */
+  margin: 0 auto; /* Center the jumbotron horizontally */
+}
+
+/* Style the heading */
+.display-4 {
+  font-size: 28px; /* Slightly smaller heading size */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Change to your preferred text color */
+}
+
+/* Style the paragraph text */
+p {
+  font-size: 16px; /* Slightly smaller text size */
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #555; /* Change to your preferred text color */
+}
+
+/* Style the strong (Mission) */
+strong {
+  font-size: 20px; /* Slightly smaller strong text size */
+  font-weight: bold;
+  color: #333; /* Change to your preferred text color */
+}
+
+/* Style the individual mission points */
+.jumbotron p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ナビゲーションアイテムのスタイル */
+.navbar-max .nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* アクティブなナビゲーションアイテムのスタイル */
+.navbar-max .nav-item.active .nav-link {
+  color: #333;
+}
+
+/* ハンバーガーアイコンのスタイル */
+.navbar-toggler-icon {
+  color: #333;
+}
+
+/* ロゴ画像のスタイル */
+.mainmg {
+  width: 150px;
+  height: 100px;
+}
+
+/* Header Styles */
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+table a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Add more styles as needed */
+
+/* Contact Page Styles */
+
+/* Style the container for the contact information */
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the contact information table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+/* Style the icons next to contact information */
+i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #007BFF;
+}
+
+/* Style the heading for the contact information */
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style the social media icons with different colors */
+.fa-instagram {
+  color: #d56cbf;
+}
+
+.fa-line {
+  color: #69e86b;
+}
+
+/* Style the email icon */
+.fa-envelope {
+  color: #007BFF;
+}
+/* Center the heading text */
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center; /* Add this line to center the text */
+}
+/* Center the content in the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  text-align: center; /* Center the heading text */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+ol {
+  font-size: 16px;
+  margin-left: 20px;
+  color: #333;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Style the links within the text, e.g., "contact us" link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Decrease the image size */
+/* Decrease the image size */
+/* Center the image */
+/* Decrease the image size */
+img.about-image {
+  max-width: 300px; /* Set the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  margin-top: 20px; /* Add space between the image and the table */
+}
+
+/* Style the table for a cleaner look */
+table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-collapse: collapse; /* Remove cell spacing and borders */
+}
+
+table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+/* Style the links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+.navbar {
+  padding: 10px 0; /* Add padding to the top and bottom of the header */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* Set the text color for the logo */
+  margin-right: 20px; /* Add spacing to the right of the logo */
+}
+
+.navbar-toggler-icon {
+  color: #ffffff; /* Set the color for the mobile menu icon */
+}
+
+/* Navigation Links Styles */
+.navbar-max {
+  list-style: none; /* Remove bullets from the list */
+  display: inline; /* Display the list items inline */
+  font-size: 20px; /* Set the font size for navigation links */
+}
+
+.navbar-max li {
+  display: inline-block; /* Display the list items inline-block */
+  margin-right: 20px; /* Add spacing between navigation items */
+}
+
+.nav-link {
+  color: #ffffff; /* Set the text color for the navigation links */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.nav-item.active .nav-link {
+  font-weight: bold; /* Make active links bold */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Logo Image Styles */
+.mainimage {
+  width: 150px; /* Set the width for the logo image */
+  height: 100px; /* Set the height for the logo image */
+  margin-right: 20px; /* Add spacing to the right of the logo */
+}
+
+/* Center the logo vertically within the navbar */
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+}
